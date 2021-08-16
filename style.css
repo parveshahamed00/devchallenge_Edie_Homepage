@@ -1,0 +1,111 @@
+.navbar-brand{
+    font-weight: 900;
+    font-size: 30px;
+}
+.nav-item{
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+#home .pictureHeading{
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+.pictureHeading p{
+    color: blue;
+}
+#home .pictureFooter{
+    padding-left: 5%;
+    margin: 3%;
+}
+.card .btn:hover{
+    background-color:blue;
+    cursor: pointer;
+    border: 0;
+}
+.card:hover{
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow:  19px 19px 38px #b5b5b5,
+                 -19px -19px 38px #ffffff;
+}
+.card img{
+    width: 22%;
+    margin-bottom: 5%;
+}
+/* ---------------------------------------------------------------------------------------- */
+
+#Works p{
+    color: gray;
+    margin: 0;
+}
+#Works .design{
+    text-align: end;
+}
+#Works img{
+    width: 80%;
+    border-radius: 20px;
+}
+#services{
+    padding: 10% 0;
+}
+@media (min-width:600px) {
+    #Works .design{
+        margin-top: 10%;
+    }
+  
+}
+@media (max-width:600px) {
+    
+    #Works .design{
+        text-align:unset;
+    }
+}
+/* ---------------------------------------------------------------------------------------- */
+
+#team .heading{
+    color: red;
+}
+#team img{
+    border-radius: 20px;
+    width: 80%;
+}
+#team .flex{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#team{
+    padding: 4% 0;
+}
+#review img{
+    float: left;
+    margin-right:1rem;
+    width: 5%;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+#contact .col-lg-4{
+    text-align: center;
+    background-color:#0F044C;
+    color: whitesmoke;
+    padding: 4% 0;
+}
+#contact ul li {
+    list-style: none;
+    margin-top: 2%;
+    
+}
+#contact ul li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+#contact svg{
+    margin: 0 3%;
+}
